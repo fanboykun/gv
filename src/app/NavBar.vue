@@ -16,7 +16,7 @@ const color = useColor('light')
   router-link.fixed.top-0.left-0.z-1000(
     style="background:none !important"
     to="/")
-    img.w-24.transition-all.duration-500.ease-in-out(src="https://gun-vue.js.org/media/gun-vue-logo.svg")
+    //- img.w-24.transition-all.duration-500.ease-in-out(src="https://gun-vue.js.org/media/gun-vue-logo.svg")
   .flex.items-center.z-40.gap-2.p-2.bg-light-100.dark-bg-dark-200.shadow-xl.w-full.bg-cover( 
     data-tauri-drag-region="true"
     :style="{ ...bg }"
@@ -28,8 +28,8 @@ const color = useColor('light')
       )
     .flex-auto
     ui-dark
-    qr-share
-    gun-tools
+    //- qr-share
+    //- gun-tools
 
 
     user-icon(

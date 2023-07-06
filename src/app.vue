@@ -83,7 +83,7 @@ const bg = computed(() => useBackground({ pub: currentRoom.pub, size: 1200, ligh
       transition(name="fade", mode="out-in")
         keep-alive(:exclude="['space']" :max="10")
           component(:is="Component")
-  nav-footer.Footer(v-if="$route.path == '/'")
+  //- nav-footer.Footer(v-if="$route.path == '/'")
 </template>
 
 
